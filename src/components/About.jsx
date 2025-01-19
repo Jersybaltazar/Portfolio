@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Soy un desarrollador de software apasionado por crear experiencias
+        Soy un Ingeniero de Software apasionado por crear experiencias
         digitales excepcionales. Con sólida experiencia en Typescript y Python,
         especializado en ecosistemas modernos como React, Next js y Django. Me
         destaco por transformar ideas complejas en soluciones elegantes y
