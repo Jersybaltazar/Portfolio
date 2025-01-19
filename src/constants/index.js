@@ -27,6 +27,9 @@ import {
   laravel,
   csharp,
   php,
+  scuti,
+  sersi,
+  raiz
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +49,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Desarrollador Web",
+    title: "Desarrollador Frontend",
     icon: web,
   },
   {
@@ -58,7 +61,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Desarrollador IA",
+    title: "Desarrollador ML/IA",
     icon: creator,
   },
 ];
@@ -81,16 +84,16 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "php",
-    icon: php,
+    name: "redux",
+    icon: redux,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
    {
-     name: "Laravel",
-     icon: laravel,
+     name: "docker",
+     icon: docker,
   },
   {
     name: "Tailwind CSS",
@@ -101,8 +104,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "mysql",
-    icon: mysql,
+    name: "typescript",
+    icon: typescript,
   },
   {
     name: "Three JS",
@@ -113,8 +116,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "csharp",
-    icon: csharp,
+    name: "mongodb",
+    icon: mongodb,
   },
   // {
   //   name: "docker",
@@ -139,42 +142,40 @@ const experiences = [
   //   ],
   // },
   {
-    title: "Desarrolllador Weeb",
-    company_name: "",
+    title: "Desarrolllador Odoo",
+    company_name: "Kdosh",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Ene 2021 - Feb 2022",
+    date: "Jun 2022 - Feb 2023",
     points: [
-      "Desarrollo y mantenimiento de aplicaciones web utilizando Laravely React.",
-      "Desarrollo de sistemas implemtentando algoritmos de Inteligencia Artifical",
-      "Implementar un diseño receptivo y garantizar la compatibilidad entre navegadores.",
-    
+      "Desarrollo y mantenimiento de nuevos modulos y personalizar los ya existentes segpun los requerimientos del cliente.",
+      "Migraciones de bases de datos segun versiones",
+      "Diseñar e implementar integraciones entre Odoo y otras plataformas (por ejemplo, sistemas de contabilidad, e-commerce o CRM).",
     ],
   },
   {
-    title: "Desarrollador React js ",
-    company_name: "",
+    title: "Ingeniero Full-Stack",
+    company_name: "Inmobiliaria Raiz ",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Ene 2022 - Feb 2023",
+    date: "Agt 2023 - Dic 2023",
     points: [
-      "Desarrollo y mantenimiento de aplicaciones web utilizando React.js y otras tecnologías relacionadas.",
-    
-      "Implementar un diseño receptivo y garantizar la compatibilidad entre navegadores.",
-      "Participar en revisiones de código y proporcionar comentarios constructivos con otros desarrolladores",
+      "Diseño, desarrollo y mantenimiento de una aplicación o plataforma web tipo Marketplace orientado a la inmobiliaria",
+      "Implementar un diseño responsivo y garantizar la compatibilidad entre navegadores.",
+      "implementar una solución híbrida de almacenamiento y optimización. Para mejorar la eficiencia, la escalabilidad y el rendimiento de la aplicación"
     ],
   },
   {
-    title: "Desarrollador Back-End",
-    company_name: "K-SOFT",
+    title: "Ingeniero Full-Stack",
+    company_name: "SCUTI",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Ene 2023 - Present",
+    date: "Ene 2024 - Ene 2025",
     points: [
-      "Desarrollo y mantenimiento de aplicaciones de escritorio utilizando C# y otras tecnologías relacionadas.",
+      "Desarrollo y mantenimiento de aplicaciones web utilizando tecnologias modernas como Nextjs , MongoDB y otras tecnologias relacionadas.",
       "Colaborar con equipos multifuncionales que incluyen diseñadores, gerentes de productos y otros desarrolladores para crear productos de alta calidad.",
       ,
-      "Desarrollo de una applicación movil utilizando Mockittapp ,Xamrin , Api rest en php, Mysql y tecnologias relacionadas ",
+      "Lider de proyecto en el desarrollo de una plataforma web de investigación orientado a la agricultura de precision.",
     ],
   },
 ];
@@ -208,67 +209,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Restaurante App",
+    name: "SERSI-AI",
     description:
-      "Plataforma basada en la web que permite a los usuarios buscar, reservar y administrar un restaurante , brindando una solución conveniente y eficiente para las necesidades de administración.",
+      "Plataforma SAS basada en la web que permite a los usuarios crear asistentes inteligentes, brindando una solución para la atencion al cliente, personalisada, conveniente y eficiente.",
+    tags: [
+      {
+        name: "Next js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rest Api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sersi,
+    source_code_link: "https://cersi-ia.vercel.app/",
+  },
+  {
+    name: "Scuti - Web",
+    description:
+      "Sitio web tipo one-page que presenta a una empresa tecnológica, detallando sus servicios, soluciones personalizadas y enfoque innovador.",
+    tags: [
+      {
+        name: "Tailwindcss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: scuti,
+    source_code_link: "https://scut1.com/",
+  },
+  {
+    name: "Real State",
+    description:
+      "Plataforma basada en la web que permite a los usuarios buscar , observar y reservar lugares o sitios inmobiliarios; asi como una descripición , ubicación y datos especificos del sitio con su modulo para administrar.",
     tags: [
       {
         name: "React js",
         color: "blue-text-gradient",
       },
       {
-        name: "php",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Redis",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/Jersybaltazar/Restaurant",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Aplicación movil que permite a los usuarios buscar ofertas de trabajo, buscar productos y emprendimientos en linea, localizar trabajos disponibles según su ubicación actual.",
-    tags: [
-      {
-        name: "Xamarin",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Mysql",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/Jersybaltazar/Bolsa_trabajo",
-  },
-  {
-    name: "Turisteando",
-    description:
-      "Plataforma basada en la web que permite a los usuarios buscar y observar lugares o sitios turisticos; asi como una descripición , ubicación y datos especificos del sitio con su modulo para administrar.",
-    tags: [
-      {
-        name: "Laravel",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Mysql",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/Jersybaltazar/Ciscov",
+    image: raiz,
+    source_code_link: "https://raiz-front.vercel.app/",
   },
 ];
 

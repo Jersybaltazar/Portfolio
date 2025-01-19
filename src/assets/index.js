@@ -6,7 +6,6 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -24,8 +23,9 @@ import mysql from "./tech/mysql.png"
 import csharp from "./tech/csharp.png"
 import laravel from "./tech/laravel.png"
 import php from "./tech/php.png"
-
-
+import scuti from "./scuti.png"
+import sersi from "./sersi.png"
+import raiz from "./raiz.png"
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -68,4 +68,7 @@ export {
   laravel,
   csharp,
   php,
+  scuti,
+  sersi,
+  raiz
 };

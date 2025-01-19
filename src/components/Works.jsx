@@ -26,7 +26,9 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[230px]'
+        onClick={() => window.open(source_code_link, "_blank")}
+        >
           <img
             src={image}
             alt='project_image'
@@ -71,8 +73,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Algunos de mis trabajos</p>
-        <h2 className={`${styles.sectionHeadText}`}>Proyectos.</h2>
+        <p className={`${styles.sectionSubText} `}>Algunos de mis </p>
+        <h2 className={`${styles.sectionHeadText}`}>Proyectos</h2>
       </motion.div>
 
       <div className='w-full flex'>
